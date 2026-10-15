@@ -10,11 +10,18 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: [
+                 "No início ficou com medo do que essa tecnologia pode fazer. " ,
+                 "Achou assustor pensar na velocidade na qual a tecnologia está avançando ."
+            ]
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: [
+                    "Quis saber como usar IA no seu dia a dia." ,
+                    " pensou que essa noa tecnologia pode ajudar em várias tarefas do seu dia a dia ."
+
+            ]
             }
         ]
     },
@@ -110,4 +117,8 @@ function mostraResultado() {
     caixaAlternativas.textContent = "";
 }
 
+function aleatorio (lista)[
+    const posicao = Math.floor(Math.random ()* lista.length);
+    return lista []
+]
 mostraPergunta();
